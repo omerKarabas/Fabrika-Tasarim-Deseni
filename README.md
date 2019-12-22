@@ -3,7 +3,7 @@
 Abstrack factory(fabrika) tasarım deseni creational grubuna ait bir tasarım desenidir. Eğer nesnelerin aralarında ilişki varsa  nesneler için somut sınıflar oluşturmadan arayüzler oluşturmaya imkan sağlar.İf else yapısından kurtulmanızı sağlayarak daha sade bir kod yazmanızı sağlar. Bu tasarım desenin oluşturmak için en az türü abstarct, interface ve normal sınır olan bir süper class, en az bir alt sınıf , bir tane  süper abstract class, bir tane üretici ve test sınıfı olmak zorundadır. Gelin bu tasarım desenini bir senaryo üzerinden inceleyelim
 
 
-![Image of Class](https://raw.githubusercontent.com/caglarozcan/Desing-Patterns/master/DependencyInjection/DependencyInjection/Component/DependencyInjectionClassDiagram.png)
+![Image of Class](https://raw.githubusercontent.com/omerKarabas/Fabrika-Tasarim-Deseni/master/AbstractFactoryDiagram.png)
 
 Yukarıda gördüğünüz diagramda ki senaryo yeni bir pc oluşturulmak istendiğini düşünülerek  kurulmuştur fakat tüm yapıyı anlatmak için bütün bilgisayar bileşenleri bir bir  örneklemek yerine Ram ve Hdd  bileşenleri üzerinden  anlatılmıştır. Yeni bir bilgisayar oluşturulmak istendiğinde PcFactory arayüzü üzerinden oluşturulmak istenen bileşenin sınıfına erişiliyor. Bizim örneğimizde bu bileşenler ram ve hdd dir. Ve bu bileşenlerin  diagram üzerinde  kendi içerisinde  iki farklı türü bulunmaktadır. Yani bir bilgisayar  nesnesi oluşturulmak istendiğinde kullanılabilecek ram türü iki tanedir.
 
